@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+
+ 
+  public static void main(String[] args) {
+    Scanner keyboard = new Scanner(System.in); 
+		System.out.println("Enter your email address: ");
+		String email = keyboard.nextLine();
+
+  if (email.equalsIgnoreCase("@gmail.com")){
+			System.out.println("Email is valid");
+      }
+
+	else {
+System.out.println( "Invalid email, try again");
+  
+        }
+    }
+  }
